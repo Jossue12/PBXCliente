@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1500584721256
+Build-Jdk: 1.8.0_91
+Built-By: administradorcito
+Bundle-Category: dto
+Bundle-Description: DTO de departamento
+Bundle-ManifestVersion: 2
+Bundle-Name: MACDCDEP
+Bundle-SymbolicName: MACDCDEP-0.0.1
+Bundle-Version: 0.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bbva.macd.dto.departamento;uses:="com.bbva.apx.dto,o
+ rg.apache.commons.lang3.builder";version="0.0.1"
+Import-Package: com.bbva.apx.dto;version="[1.0,2)",org.apache.commons.la
+ ng3.builder;version="[3.2,4)"
+Tool: Bnd-1.50.0

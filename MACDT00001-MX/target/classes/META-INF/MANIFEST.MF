@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1500584859515
+Build-Jdk: 1.8.0_91
+Built-By: administradorcito
+Bundle-Activator: com.bbva.macd.MACDT00001MXTransaction
+Bundle-Category: transaction
+Bundle-Description: TRANSACCION
+Bundle-ManifestVersion: 2
+Bundle-Name: MACDT000
+Bundle-SymbolicName: MACDT000-01-MX
+Bundle-Version: 01.0.0.MX
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bbva.macd;uses:="com.bbva.elara.transaction,com.bbva
+ .macd.dto.departamento,com.bbva.macd.dto.cliente";version="01.0.0.MX"
+Import-Package: com.bbva.elara.transaction;version="0.0",com.bbva.macd.d
+ to.cliente;version="0.0.1",com.bbva.macd.dto.departamento;version="0.0"
+Originally-Created-By: Maven Integration for Eclipse
+Tool: Bnd-1.50.0

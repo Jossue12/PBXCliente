@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1500584743509
+Build-Jdk: 1.8.0_91
+Built-By: administradorcito
+Bundle-Category: dto
+Bundle-Description: cliente DTO
+Bundle-ManifestVersion: 2
+Bundle-Name: MACDCCLI
+Bundle-SymbolicName: MACDCCLI-0.0.1
+Bundle-Version: 0.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bbva.macd.dto.cliente;uses:="com.bbva.macd.dto.depar
+ tamento,com.bbva.apx.dto,org.apache.commons.lang3.builder";version="0.0
+ .1"
+Import-Package: com.bbva.apx.dto;version="[1.0,2)",com.bbva.macd.dto.dep
+ artamento;version="[0.0,1)",org.apache.commons.lang3.builder;version="[
+ 3.2,4)"
+Tool: Bnd-1.50.0
